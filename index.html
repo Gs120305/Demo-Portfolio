@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gouri Sonwane | Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans antialiased text-gray-900">
+    <header class="fixed top-0 w-full bg-white shadow z-50">
+        <nav class="container mx-auto flex bg-[#FFB4B4] justify-between items-center p-4">
+            <div class="text-xl font-bold ">Welcome to My Portfolio</div>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="#home" class="hover:text-indigo-600">Home</a></li>
+                <li><a href="#about" class="hover:text-indigo-600">About</a></li>
+                <li><a href="#projects" class="hover:text-indigo-600">Projects</a></li>
+                <li><a href="#contact" class="hover:text-indigo-600">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center bg-[#FCD8CD] pt-32">
+        <img src="images/profile.jpg" alt="Profile" class="w-40 h-40 rounded-full shadow mb-6">
+        <h1 class="text-4xl font-bold">Gouri Sonwane</h1>
+        <p class="text-xl text-indigo-600 mt-2">Web Designer</p>
+        <p class="italic mt-4">"Building the web with purpose and passion."</p>
+
+        <p class="text-gray-700 leading-relaxed ">
+            I'm a passionate Computer Science student and coding enthusiast<br>
+             who loves turning ideas into digital reality. With a strong <br>
+             foundation in web development and a hunger to learn, I enjoy <br>
+             building creative and impactful tech projects.
+        </p>
+        <a href="resume.pdf"
+            class="mt-6 inline-block bg-indigo-600 text-white px-6 py-3 rounded-lg shadow hover:bg-indigo-700">
+            Download Resume
+        </a>
+    </section>
+    <section id="about" class="py-16 bg-[#FEEBF6]">
+
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">About Me</h2>
+
+            <div class="grid md:grid-cols-2 gap-8 items-start">
+
+                <!-- Left: About Paragraph -->
+                <div>
+                    <p class="mb-4">
+                        Hello! I'm a passionate front-end developer with a love for clean code and responsive design. I
+                        enjoy building beautiful, functional websites that create great user experiences.
+                    </p>
+                    <p>
+                        When I'm not coding, you’ll find me exploring new tech tools or sketching design ideas. My goal
+                        is
+                        to keep improving and eventually lead impactful projects.
+                    </p>
+                    <br>
+                    <p>
+                        Eager to apply academic knowledge in real-world settings.
+                        I’m passionate about learning, adaptable in dynamic environments, and motivated to contribute
+                        meaningfully to a team.
+                    </p>
+                </div>
+
+                <!-- Right: Skills + Experience -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Key Skills</h3>
+                    <ul class="grid grid-cols-2 gap-2 mb-6">
+                        <li class="bg-gray-100 rounded-lg p-2 text-center">HTML</li>
+                        <li class="bg-gray-100 rounded-lg p-2 text-center">CSS</li>
+                        <li class="bg-gray-100 rounded-lg p-2 text-center">Tailwind CSS</li>
+                        <li class="bg-gray-100 rounded-lg p-2 text-center">C/C++</li>
+                        <li class="bg-gray-100 rounded-lg p-2 text-center">Java</li>
+                    </ul>
+
+                    <h3 class="text-xl font-semibold mb-4">Education & Experience</h3>
+                    <ul class="space-y-4">
+                        <li class="bg-gray-100 rounded-lg p-4">
+                            <strong>2022 – Present</strong><br>
+                            B.Tech in Computer Science and Engineering<br>
+                            A. G. Patil Institute Of Technology
+                        </li>
+                        <li class="bg-gray-100 rounded-lg p-4">
+                            <strong>2022</strong><br>
+                            HSC , Sangameshwar college
+                        </li>
+                        <li class="bg-gray-100 rounded-lg p-4">
+                            <strong>2020</strong><br>
+                            SSC , Modern High school
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+   <section id="projects" class="py-16 bg-[#EBD6FB]">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-4 text-[#687FE5]">Projects</h2>
+    <p class="text-center text-gray-700 max-w-2xl mx-auto mb-12">
+      These are some of the personal and academic projects I’ve worked on. They showcase my skills in web development,
+      IoT, and UI design. Each project represents a unique challenge and learning experience.
+    </p>
+
+    <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <!-- Project Card 1 -->
+      <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg hover:scale-105 transition-transform duration-300">
+        <img src="images/recipe.jpg" alt="Project 1" class="rounded mb-4 w-full h-48 object-cover">
+        <h3 class="text-xl font-semibold text-[#687FE5]">Project One</h3>
+        <p class="text-sm mt-2 mb-4">A responsive Recipe Book using HTML and CSS with a focus on clean UI and usability.</p>
+        <a href="#" class="text-indigo-600 hover:underline text-sm">View on GitHub →</a>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg hover:scale-105 transition-transform duration-300">
+        <img src="images/irrigation.jpg" alt="Project 2" class="rounded mb-4 w-full h-48 object-cover">
+        <h3 class="text-xl font-semibold text-[#687FE5]">Project Two</h3>
+        <p class="text-sm mt-2 mb-4">An IoT-based Smart Irrigation System that monitors soil moisture in real time.</p>
+        <a href="#" class="text-indigo-600 hover:underline text-sm">View on GitHub →</a>
+      </div>
+
+      <!-- Project Card 3 -->
+      <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg hover:scale-105 transition-transform duration-300">
+        <img src="images/garden.jpg" alt="Project 3" class="rounded mb-4 w-full h-48 object-cover">
+        <h3 class="text-xl font-semibold text-[#687FE5]">Project Three</h3>
+        <p class="text-sm mt-2 mb-4">A Virtual Herbal Garden Android app with plant info, images, and interactive features.</p>
+        <a href="#" class="text-indigo-600 hover:underline text-sm">View on GitHub →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="contact" class="py-16 bg-[#FEEBF6]">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8 text-[#687FE5]">Contact Me</h2>
+
+            <form id="contactForm" class="max-w-2xl mx-auto bg-white rounded-lg p-8 shadow">
+                <div class="mb-4">
+                    <label for="name" class="block mb-2 font-medium">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name"
+                        class="w-full p-3 border rounded focus:outline-none focus:ring-2 focus:ring-[#687FE5]" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block mb-2 font-medium">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com"
+                        class="w-full p-3 border rounded focus:outline-none focus:ring-2 focus:ring-[#687FE5]" required>
+                </div>
+                <div class="mb-6">
+                    <label for="message" class="block mb-2 font-medium">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message..."
+                        class="w-full p-3 border rounded focus:outline-none focus:ring-2 focus:ring-[#687FE5]"
+                        required></textarea>
+                </div>
+
+                <button type="submit"
+                    class="bg-[#687FE5] text-white px-6 py-3 rounded hover:bg-indigo-700 transition">Send
+                    Message</button>
+            </form>
+
+            <!-- Confirmation Message -->
+            <p id="formStatus" class="text-center mt-4 text-green-600 font-semibold hidden">Message sent successfully!
+            </p>
+
+            <div class="flex justify-center mt-6 space-x-4">
+                <a href="#" class="text-[#687FE5] hover:text-indigo-700">GitHub</a>
+                <a href="#" class="text-[#687FE5] hover:text-indigo-700">LinkedIn</a>
+                <a href="#" class="text-[#687FE5] hover:text-indigo-700">Twitter</a>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-[#687FE5] text-white text-center py-4">
+        &copy; 2025 Gouri Sonwane. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
