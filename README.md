@@ -17,6 +17,12 @@ It includes:
 ## Screenshots
 
 ![Desktop View](images/screenshot-desktop.png)
+![more](images/about.png)
+![more](images/project.png)
+![more](images/contact.png)
+
+📱 MOBILE View ->
+
 ![Mobile View](images/screenshot-mobile.png)
 
 ## 🛠️ Features
